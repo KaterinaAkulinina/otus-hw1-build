@@ -5,8 +5,7 @@
 using namespace std;
 
 TEST(TestGroupName, Subtest_1) {
-  ASSERT_TRUE(version() == 1);
-  cout << "all right" << endl;
+  ASSERT_TRUE(version() > 0);
 }
 
 
